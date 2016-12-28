@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+		h2 {
+			color:orange;
+		}
+		header.mainimage{
+			background-color: #00728a;
+		}
+		nav {
+			background-color: #00728a;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+			color: orange;
+			padding-bottom: 6%;
+			padding-top: 6%;
+		}
+		body {
+			background-color:#3d8fa0;
+		}
+		div.container {
+			width: 800px;
+			background-color: white;
+		}
+		header {
+			text-align: center;
+		}
+		header.heading1 {
+			background-color:#00728a;
+			padding-top: 2%;
+			padding-bottom: 2%;
+		}
+		h1 {
+			color:orange;
+			
+		}
+		#footer.row {
+			background-color:#00728a;
+			padding-top: 1%; 
+			padding-bottom: 1%;
+			margin-left: 0.1%; 
+			margin-right: 0.1%;
+		}
