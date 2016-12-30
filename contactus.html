@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr Drake's Website</title>
+<meta name="author" content="Chris Drake">
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+<link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+<link href="css/template.css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">
+		
+		figure {
+			float: left;
+			margin-right: 2%;
+		}
+		div.section1{
+			padding-top:2%;
+		}
+		section.lasttext {
+			padding-top: 1%;
+			padding-bottom: 5%;
+			text-align: center;
+		}
+		span.strong {
+			font-weight: bold;
+			color: #00728a;
+		}
+		section.textheading{
+			padding-top: 2%;
+			font-weight:bold;
+			color: #00728a;
+		}
+		table {
+			border: thick;
+			border-radius: 5px;
+			width: 80%;
+		}
+		td.desc {
+			text-align: left;
+			padding: 2%;
+			vertical-align: text-top;
+			
+		}
+		td.object {
+			text-align: right;
+			
+		}
+		td.space {
+			padding-top: 1%;
+			padding-bottom: 1%;
+		}
+		input {
+			width: 200px;
+			
+		}
+		input.address {
+			width: 400px;
+			height: 60px;
+			vertical-align: text-top;
+		}
+		input.email {
+			width: 400px;
+		}
+		textarea {
+			width: 400px;
+		}
+		input.submit {
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="container" >
+	<div class="row">&nbsp;</div>
+	<header class="heading1">
+		<h1>Technologies in the Curriculum</h1>
+	</header>
+	<header style="background-color: #00728a;"><img src="webmaster-technologies.jpg" width="770" alt="Lightbulb header"></header>
+	<nav>
+		<span class="navrow"><a href="digitaltechnologies.html" class="navlink" name="Digital Technologies">Digital Technologies</a></span>
+		<span class="navrow"><a href="designtechnologies.html" class="navlink" name="Design Technologies">Design Technologies</a></span>
+		<span class="navrow"><a href="mediaarts.html" class="navlink" name="Media Arts">Media Arts</a></span>
+		<span><a href="ict.html" class="navlink" name="ICT Use">ICT Use</a></span>
+	</nav>
+	
+	
+	<header class="subjectheading"><h2>Contact Us</h2></header>
+		<section class="lasttext"><form action="index.html">
+			<table align="center" class="form" border="0">
+			<tr><td width="40%">&nbsp;</td><td width="60%">&nbsp;</td></tr>
+			<tr><td class="desc">Name:</td><td  class="object"><input class="name" required  autocomplete="off"></td></tr>
+			<tr><td class="space">&nbsp;</td><td class="space">&nbsp;</td></tr>
+			<tr><td class="desc">Email:</td><td  class="object"><input class="email" required  autocomplete="off"></td></tr>
+			<tr><td class="space">&nbsp;</td><td class="space">&nbsp;</td></tr>
+			<tr><td class="desc">Phone Number:</td><td class="object"><input class="phone" maxlength="10" required autocomplete="off"></td></tr>
+			<tr><td class="space">&nbsp;</td><td class="space">&nbsp;</td></tr>
+			<tr><td class="desc">Address:</td><td class="object" style="padding-top: 2%; padding-bottom: 2%;"><input class="address" maxlength="10" required autocomplete="off" height="20" size="20"></td></tr>
+			<tr><td class="desc">Suburb:</td><td class="object"><input class="suburb" required autocomplete="off" size="40"></td></tr>
+			<tr><td  class="desc">State:</td><td  class="object">
+				<input list="state" autocomplete="off" required>
+				<datalist id="state">
+					<option value="ACT">
+					<option value="NSW">
+					<option value="NT">
+					<option value="QLD">
+					<option value="SA">
+					<option value="TAS">
+					<option value="VIC">
+					<option value="WA">
+				</datalist>
+			</td></tr>
+			<tr><td class="desc">Postcode:</td><td  class="object"><input class="postcode" maxlength="4" required  autocomplete="off"></td></tr>
+			 <tr><td class="desc">Query:</td><td class="object"><textarea required></textarea></td></tr>
+			</table>
+			<br>
+			<input type="submit" class="submit">
+		</form></section>
+	
+	
+  	  <div class="row" id="footer" >
+		  <div class="col-lg-4" align="left"><a href="contactus.html" class="bottomnav">Contact Us</a></div>
+	    <div class="col-lg-4" align="center"><a href="sitemap.html" class="bottomnav">Sitemap</a></div>
+		  <div class="col-lg-4" align="right"><a href="privacy.html" class="bottomnav">Privacy Policy</a></div>
+	  </div>
+	  <div class="row">&nbsp;</div>
+	  
+      
+</div>
+</body>
+</html>
